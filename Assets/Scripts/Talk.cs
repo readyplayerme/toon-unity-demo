@@ -6,7 +6,7 @@ public class Talk: MonoBehaviour
 {
     void Start()
     {
-        StartCoroutine(nameof(WaitAndPlaySound));
+        StartCoroutine(WaitAndPlaySound());
     }
     private IEnumerator WaitAndPlaySound()
     {
